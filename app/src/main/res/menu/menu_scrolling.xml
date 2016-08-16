@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cdb.myapplication1.ScrollingActivity">
+    <item
+        android:id="@+id/action_pinglun"
+        android:orderInCategory="100"
+        android:title="@string/action_pinglun"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_jianjie"
+        android:orderInCategory="100"
+        android:title="@string/action_jianjie"
+        app:showAsAction="never" />
+</menu>

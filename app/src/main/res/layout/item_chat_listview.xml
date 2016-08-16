@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleDraweeView_chat_listView"
+        app:placeholderImage="@drawable/app_icon"
+        android:layout_width="50dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/textView_user_listView"
+        android:layout_toRightOf="@+id/simpleDraweeView_chat_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_date_listView"
+        android:layout_toRightOf="@+id/textView_user_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_chat_listView"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView_content_listView"
+        android:layout_toRightOf="@id/simpleDraweeView_chat_listView"
+        android:layout_below="@id/textView_user_listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

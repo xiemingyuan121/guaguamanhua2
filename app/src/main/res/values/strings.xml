@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BoBo漫画</string>
+    <string name="action_pinglun">评论</string>
+    <string name="action_jianjie">简介</string>
+    <string-array name="arrButtonTitle">
+        <item>推荐</item>
+        <item>书架</item>
+        <item>分类</item>
+        <item>更多</item>
+    </string-array>
+    <array name="arrButtonIcons">
+        <item>@mipmap/tuijian</item>
+        <item>@mipmap/shujia</item>
+        <item>@mipmap/fenlei</item>
+        <item>@mipmap/gengduo</item>
+    </array>
+    <string-array name="arrTabLayoutTitles">
+        <item>热门连载</item>
+        <item>小说推荐</item>
+        <item>精彩港漫</item>
+        <item>最近更新</item>
+    </string-array>
+</resources>
